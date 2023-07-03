@@ -9,7 +9,6 @@ public class AreaOfATrianglesFromPoints {
         double c = Math.sqrt((arr[0][0]-arr[2][0])*(arr[0][0]-arr[2][0])+(arr[0][1]-arr[2][1])*(arr[0][1]-arr[2][1]));
 
         double s = (a+b+c)/2;
-
         double area = Math.sqrt(s*(s-a)*(s-b)*(s-c));
 
         return area;
